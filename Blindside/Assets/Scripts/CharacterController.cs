@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
+
+    private Ray currentRay;
+    [SerializeField] private float raycastDistance;
+
     [Header("Hareket Ayarlarý")]
     [SerializeField] private float moveSpeed = 5f;
 
@@ -43,6 +47,7 @@ public class CharacterController : MonoBehaviour
         GetInput();
         // Kamera hareketini her frame'de yap (daha akýcý hissettirir)
         HandleLook();
+        RaycastController();
     }
 
     void FixedUpdate()
@@ -51,6 +56,34 @@ public class CharacterController : MonoBehaviour
         HandleMovement();
     }
 
+    private void RaycastController()
+    {
+        Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f,0.5f,0));
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, raycastDistance))
+        {
+            if (hit.collider.TryGetComponent(out IInterectable interectableObject))
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    interectableObject.Interact();
+                }
+            }
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        if (playerCamera != null)
+        {
+            Gizmos.color = Color.green;
+
+            // DÜZELTME: Çizgiyi kameranýn pozisyonundan baþlatýp, baktýðý yöne doðru raycastDistance kadar çiziyoruz.
+            Vector3 endPoint = playerCamera.transform.position + playerCamera.transform.forward * raycastDistance;
+            Gizmos.DrawLine(playerCamera.transform.position, endPoint);
+        }
+    }
     /// Kullanýcýdan klavye ve fare girdilerini alýr.
     private void GetInput()
     {

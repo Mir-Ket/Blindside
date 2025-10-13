@@ -15,6 +15,7 @@ public class FlasLightController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
+            //iþlemin tamamen tersini yapýyor true ise false false ise true
             lightOpenClose = !lightOpenClose;
             flashLight.SetActive(lightOpenClose);
         }
