@@ -9,12 +9,12 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float raycastDistance;
 
     [Header("Hareket Ayarlarý")]
-    [SerializeField] private float moveSpeed = 5f;
+    public float moveSpeed = 5f;
 
     [SerializeField] private float jumpForce = 5f;
 
     [Header("Kamera Ayarlarý")]
-    [SerializeField] private float mouseSensitivity = 2f;
+    public float mouseSensitivity = 2f;
     [SerializeField] private Transform playerCamera;
     [SerializeField] private float lookXLimit = 80.0f;
 
