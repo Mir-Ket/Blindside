@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4916476634401366200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73.71098
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1455
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.29792
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5714989398388634780, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228476256991992820, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: m_Name
+      value: Hotel Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872946734191940612, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 598003.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094382933781574568, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 598003.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8378526956961802083, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 598003.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8882062926138642161, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 598003.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965719728522069486, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 598003.44
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
