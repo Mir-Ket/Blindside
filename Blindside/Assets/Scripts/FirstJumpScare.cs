@@ -5,6 +5,7 @@ public class FirstJumpScare : MonoBehaviour
 {
     [SerializeField] GameObject _wallTrigger;
     [SerializeField] GameObject _monster;
+    [SerializeField] float _monsterTime;
 
     // Update is called once per frame
     void Update()
@@ -18,7 +19,7 @@ public class FirstJumpScare : MonoBehaviour
         
             _monster.SetActive(true);
             _wallTrigger.SetActive(false);
-            Invoke(nameof(Delayer), 0.2f);
+            Invoke(nameof(Delayer), _monsterTime);
         }
     }
 
