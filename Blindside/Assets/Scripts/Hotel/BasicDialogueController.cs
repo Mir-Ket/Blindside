@@ -16,17 +16,11 @@ public class BasicDialogueController : MonoBehaviour
     IEnumerator Delayer()
     {
         yield return new WaitForSeconds(1);
-        characterController.moveSpeed = 0;
-        characterController.mouseSensitivity = 0;
+
         firstDialogue.SetActive(true);
 
         yield return new WaitForSeconds(3);
         firstMission.SetActive(true);
         firstDialogue.SetActive(false);
-
-        characterController.mouseSensitivity = 2;
-        characterController.moveSpeed = 5;
-
-
     }
 }
