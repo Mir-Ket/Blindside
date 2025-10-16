@@ -1639,6 +1639,7 @@ MonoBehaviour:
   maxHealth: 100
   minHealth: 0
   currentHealth: 100
+  damageTime: 0
 --- !u!81 &4227709363008004413
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2206,7 +2207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Example
   raycastDistance: 3
-  moveSpeed: 5
+  moveSpeed: 2.5
   jumpForce: 0
   mouseSensitivity: 2
   playerCamera: {fileID: 5650265410099992266}
@@ -2433,7 +2434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1971250422420174012, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 15734.466
+      value: 32570.344
       objectReference: {fileID: 0}
     - target: {fileID: 1971250422420174012, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -2465,7 +2466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2760313786092262160, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 15734.466
+      value: 32570.344
       objectReference: {fileID: 0}
     - target: {fileID: 2760313786092262160, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -2493,7 +2494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3493760401516939227, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 15734.466
+      value: 32570.344
       objectReference: {fileID: 0}
     - target: {fileID: 3493760401516939227, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -2533,7 +2534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4059563937308697942, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 15734.466
+      value: 32570.344
       objectReference: {fileID: 0}
     - target: {fileID: 4059563937308697942, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -2561,7 +2562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4573889616295849545, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 15734.466
+      value: 32570.344
       objectReference: {fileID: 0}
     - target: {fileID: 4573889616295849545, guid: 79d2dae11708e0142ac464fd4ba531d9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar

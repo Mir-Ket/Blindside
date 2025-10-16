@@ -17,7 +17,7 @@ public class MainScene : MonoBehaviour
 
         if (WindowControl.SceneController==true)
         {
-            Invoke(nameof(Delayer), 3f);
+            Invoke(nameof(Delayer), 0f);
         }
 
 
