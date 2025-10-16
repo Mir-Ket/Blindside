@@ -1,11 +1,12 @@
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class WindowControl : MonoBehaviour,IInterectable
 {
     [SerializeField] Animator _anim;
     public GameObject thirdMission;
     public bool SceneController;
+
+    private AudioSource _audio;
     public void Interact()
     {
         DoorOpenClose();
@@ -14,11 +15,14 @@ public class WindowControl : MonoBehaviour,IInterectable
     private void Awake()
     {
         _anim = GetComponent<Animator>();
+        _audio = GetComponent<AudioSource>();
     }
     private void DoorOpenClose()
     {
         
         _anim.SetTrigger("WindowClose");
+        _audio.Play();
+
         thirdMission.SetActive(false);
         SceneController = true;
 

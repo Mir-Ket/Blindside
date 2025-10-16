@@ -9,7 +9,7 @@ public class LastSequence : MonoBehaviour
     [SerializeField] GameObject blackScreen;
     [SerializeField] float nextSceneDelay;
 
-
+    [SerializeField] AudioSource _audioSource;
 
     [SerializeField] bool killed;
 
@@ -35,7 +35,7 @@ public class LastSequence : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q) & killed == true)
         {
-
+            _audioSource.Play();
             blackScreen.SetActive(true);
             Invoke(nameof(AttackedMonster), nextSceneDelay);
 
@@ -51,6 +51,10 @@ public class LastSequence : MonoBehaviour
 
     private void AttackedMonster()
     {
+        
+
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
