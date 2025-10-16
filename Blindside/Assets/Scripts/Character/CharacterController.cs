@@ -37,8 +37,8 @@ public class CharacterController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         // Fareyi ekranýn ortasýna kilitle ve gizle
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+       Cursor.lockState = CursorLockMode.Locked;
+       Cursor.visible = false;
     }
 
     void Update()

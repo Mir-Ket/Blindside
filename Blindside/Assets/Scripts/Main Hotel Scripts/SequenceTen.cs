@@ -9,6 +9,9 @@ public class SequenceTen : MonoBehaviour
     [SerializeField] Animator _anim5;
     [SerializeField] Animator _anim6;
 
+
+    [SerializeField] AudioSource _audioSource;
+
     [SerializeField] GameObject triger;
     [SerializeField] GameObject doors;
     [SerializeField] GameObject doors2;
@@ -22,6 +25,9 @@ public class SequenceTen : MonoBehaviour
             doors.SetActive(false);
             doors2.SetActive(true);
             sequenceEleven.SetActive(true);
+
+            _audioSource.Play();
+
             _anim1.SetTrigger("JumpScare");
             _anim2.SetTrigger("JumpScare");
             _anim3.SetTrigger("JumpScare");

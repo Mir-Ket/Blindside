@@ -4,6 +4,8 @@ public class KeyControlSystem : MonoBehaviour,IInterectable
 {
     public bool DoorLock = true;
     [SerializeField] GameObject mission;
+
+    [SerializeField] AudioSource _audioSource;
     public void Interact()
     {
         DoorLockControl();
@@ -14,6 +16,7 @@ public class KeyControlSystem : MonoBehaviour,IInterectable
         DoorLock = false;
         Destroy(gameObject,0.2f);
         mission.SetActive(true);
+        _audioSource.Play();
     }
 
 }

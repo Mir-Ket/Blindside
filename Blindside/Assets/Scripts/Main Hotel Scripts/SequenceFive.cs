@@ -11,6 +11,8 @@ public class SequenceFive : MonoBehaviour
 
     [SerializeField] Animator animator1;
     [SerializeField] Animator animator2;
+
+    [SerializeField] AudioSource _audioSource;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +30,7 @@ public class SequenceFive : MonoBehaviour
             missionfive.SetActive(true);
             sequence1.SetActive(true);
 
+            _audioSource.Play();
 
             animator1.SetTrigger("WindowOpen");
             animator2.SetTrigger("BedMoving");

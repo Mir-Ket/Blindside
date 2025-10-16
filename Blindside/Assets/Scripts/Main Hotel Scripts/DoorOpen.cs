@@ -1,5 +1,4 @@
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class DoorOpen : MonoBehaviour,IInterectable
 {
@@ -8,7 +7,9 @@ public class DoorOpen : MonoBehaviour,IInterectable
     {
         DoorOpenClose();
     }
+
     [SerializeField] Animator _anim;
+    [SerializeField] AudioSource _audioSource;
     private void Awake()
     {
         _anim = GetComponent<Animator>();
@@ -19,6 +20,7 @@ public class DoorOpen : MonoBehaviour,IInterectable
     if (KeyControlSystem.DoorLock==false)
      {
             _anim.SetTrigger("DoorOpen");
+            _audioSource.Play();
      }
   }
 }

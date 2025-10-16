@@ -13,7 +13,7 @@ public class FourthSequence : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            healthSystem.GetDamage(20);
+            healthSystem.GetDamage(40);
             sequence.SetActive(false);
 
             mission3.SetActive(false);
