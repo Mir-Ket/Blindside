@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour
@@ -26,21 +27,18 @@ public class HealthSystem : MonoBehaviour
     void Update()
     {
 
-
-        if (currentHealth>minHealth)
+        if (currentHealth==minHealth)
         {
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                GetDamage(10);
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        
+
+
         if (healthBarImage.fillAmount != efectBarImage.fillAmount)
         {
             efectBarImage.fillAmount = Mathf.Lerp(efectBarImage.fillAmount, healthBarImage.fillAmount, 0.035f);
         }
     }
-    private void GetDamage(float getDamage)
+    public void GetDamage(float getDamage)
     {
         currentHealth -= getDamage;
         healthBarImage.fillAmount= currentHealth / maxHealth;
