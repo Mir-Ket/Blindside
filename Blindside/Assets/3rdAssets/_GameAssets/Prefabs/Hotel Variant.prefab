@@ -54,23 +54,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6872946734191940612, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5304136.5
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 7094382933781574568, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5304136.5
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 8378526956961802083, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5304136.5
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 8882062926138642161, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5304136.5
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 8965719728522069486, guid: 3a669424f2461c4428b3d96a4c87a925, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5304136.5
+      value: 10000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

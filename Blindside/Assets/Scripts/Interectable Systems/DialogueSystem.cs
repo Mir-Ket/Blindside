@@ -26,7 +26,7 @@ public class DialogueSystem : MonoBehaviour,IInterectable
         firstMission.SetActive(false);
         secondDialogue.SetActive(true);
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
 
         secondDialogue.SetActive(false);
         secondMission.SetActive(true);
