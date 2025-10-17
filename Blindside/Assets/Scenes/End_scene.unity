@@ -312,10 +312,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sabaha kar\u015F\u0131 bir otelde katliam ya\u015Fand\u0131. Bir m\xFC\u015Fteri,
-    kald\u0131\u011F\u0131 otelin sahibini b\u0131\xE7aklad\u0131. \nPolis hen\xFCz
-    kendisinden bilgi alamasa da bulunan kan\u0131tlara g\xF6re ki\u015Finin halis\xFCnatik
-    ila\xE7lar kulland\u0131\u011F\u0131 biliniyor"
+  m_text: "A massacre occurred at a hotel early this morning. A guest stabbed the
+    hotel owner. Although police haven\u2019t been able to question the suspect yet,
+    evidence suggests the individual had been using hallucinogenic drugs."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

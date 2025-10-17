@@ -23,11 +23,7 @@ public class LastSequence : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Dialogue.SetActive(true);
-            killed = true;
-            Dialogue.SetActive(true);
-            knife2.SetActive(true);
-            triger.SetActive(true);
+            Invoke(nameof(DialogueDelay), 6f);
         }
     }
 
@@ -56,6 +52,14 @@ public class LastSequence : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+    }
+    private void DialogueDelay()
+    {
+        Dialogue.SetActive(true);
+        killed = true;
+        knife2.SetActive(true);
+        triger.SetActive(true);
 
     }
 }
