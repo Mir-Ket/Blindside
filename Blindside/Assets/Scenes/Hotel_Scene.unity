@@ -3562,7 +3562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Otele Kayd\u0131n\u0131 Yapt\u0131r"
+  m_text: Check into the hotel.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4347,9 +4347,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Otelimize ho\u015F geldiniz. Bir g\xFCnl\xFCk \xFCcretimiz 50$. \u0130\u015Fte
-    odan\u0131z\u0131n anahtar\u0131. 106 numara. Koridorun en sonunda, soldaki oda.
-    \u0130yi geceler."
+  m_text: "Welcome to our hotel. The rate is $50 per night. Here\u2019s your room
+    key \u2014 Room 106, at the end of the hall, on the left. Have a good night."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12083,7 +12082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pencereyi Kapat
+  m_text: Close the window.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -54762,7 +54761,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15734.466
+      scalar: 67420.61
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -58734,8 +58733,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ya\u011Fmur \xE7ok k\xF6t\xFC ya\u011F\u0131yor. Bu gece kalacak bir yer
-    buldu\u011Fum i\xE7in \u015Fansl\u0131y\u0131m."
+  m_text: "It\u2019s raining really hard. I\u2019m lucky to have found a place to
+    stay tonight."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -72525,7 +72524,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Odana git.
+  m_text: Go to your room.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -75922,7 +75921,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15734.466
+      scalar: 67420.61
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -92411,7 +92410,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15734.466
+      scalar: 67420.61
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -108740,7 +108739,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15734.466
+      scalar: 67420.61
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -115969,7 +115968,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15734.466
+      scalar: 67420.61
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -121241,7 +121240,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hava \xE7ok so\u011Fuk. Pencereyi kapatsam iyi olur."
+  m_text: "It\u2019s freezing. I should close the window."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
